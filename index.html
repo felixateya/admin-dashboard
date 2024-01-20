@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin dashboard</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css
+    "
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <section class="dashboard">
+      <header>
+        <div class="search">
+          <label for="search"><span class="mdi mdi-magnify"></span></label>
+          <input type="search" name="search" id="search" />
+        </div>
+        <div class="profile">
+          <span class="mdi mdi-bell-ring-outline"></span>
+          <img src="/prof.avif" alt="" class="plc" />
+          <h3>Master Chief</h3>
+        </div>
+        <div class="greetings">
+          <img src="/prof.avif" alt="" class="plc" />
+          <div>
+            <p>hi there,</p>
+            <h2>Master Chief (@john)</h2>
+          </div>
+        </div>
+        <div class="btns">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </header>
+      <aside>
+        <h3>
+          <span class="mdi mdi-view-dashboard"></span>
+          <p>Dashboard</p>
+        </h3>
+        <div class="my-links">
+          <a href="" class="link">
+            <span class="mdi mdi-home"></span>
+            <p>Home</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-card-account-details-outline"></span>
+            <p>Profile</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-message-reply"></span>
+            <p>Messages</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-clock-time-three"></span>
+            <p>History</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-note-multiple"></span>
+            <p>Tasks</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-account-group"></span>
+            <p>Communities</p>
+          </a>
+        </div>
+        <div class="other-links">
+          <a href="" class="link">
+            <span class="mdi mdi-cog"></span>
+            <p>Settings</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-help-box"></span>
+            <p>Support</p>
+          </a>
+          <a href="" class="link">
+            <span class="mdi mdi-shield-check"></span>
+            <p>Privacy</p>
+          </a>
+        </div>
+      </aside>
+      <main>
+        <h2 class="projects-title">Your Projects</h2>
+        <h2 class="announcements-title">Announcements</h2>
+        <h2 class="trending">Trending</h2>
+        <div class="projects">
+          <div class="project">
+            <h1>Super Cool Project</h1>
+            <p>
+              Sed tempus ut lacus ut sclerisque. Suspendise sollicitudin nibh
+              erat, id facilis felis accumsan necc.
+            </p>
+            <div class="my-icons">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Less Cool Project</h1>
+            <p>
+              Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
+              sed dolor tincidunt,consectetur sapien et, facilis dolor. Dui sem
+              purus, dignissim ut sapien in, varus pellentesque lacus.
+            </p>
+            <div class="my-icons" style="bottom: 5px">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Impossible App</h1>
+            <p>
+              in hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
+            </p>
+            <div class="my-icons">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Easy Peasy App</h1>
+            <p>
+              Etiam cursus eros ac efficitur fringilla. Vestibullam dignissim
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magna tincidunt.
+            </p>
+            <div class="my-icons" style="bottom: 5px">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Ad Blocker</h1>
+            <p>
+              Quisque eget rutrum nisl. Nam ague justo, cursus vitae metus vel,
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
+            </p>
+            <div class="my-icons">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Money Maker</h1>
+            <p>
+              Praesent convallis, libero qui congue elementum, nauc ante
+              faucibus sapien, ac scelerisque tortor purus sit amex ex.
+              Pallentesque mollis nec sem vel aliquam.
+            </p>
+            <div class="my-icons" style="bottom: 5px">
+              <span class="mdi mdi-star-plus-outline"></span>
+              <span class="mdi mdi-eye-plus-outline"></span>
+              <span class="mdi mdi-source-fork"></span>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <div class="announcement">
+            <div>
+              <h4>Site Maintenace</h4>
+              <p>
+                Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                ac. Donec hendrerit sodales congue...
+              </p>
+            </div>
+            <div>
+              <h4>Community Share Day</h4>
+              <p>
+                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+                Aliquam dictum accumsan portitor...
+              </p>
+            </div>
+            <div>
+              <h4>Updated Privacy Policy</h4>
+              <p>
+                Pacelus efficitur nisi eget elit consectetur, eget condimentum
+                ante autor. Cras fringilla sagittis sem in mattis...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trends">
+          <div>
+            <img src="/prof.avif" alt="">
+            <h5>
+              <span>@megan</span>
+              <p>World Peace Builder</p>
+            </h5>
+          </div>
+          <div>
+            <img src="/cortana.jpg" alt="">
+            <h5>
+              <span>@cortana</span>
+              <p>Super Cool Project</p>
+            </h5>
+          </div>
+          <div>
+            <img src="/daemon.jpg" alt="">
+            <h5>
+              <span>@daemon</span>
+              <p>Life Changing App</p>
+            </h5>
+          </div>
+          <div>
+            <img src="/mia.jpg" alt="">
+            <h5>
+              <span>@mia</span>
+              <p>No Traffic Maker</p>
+            </h5>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
